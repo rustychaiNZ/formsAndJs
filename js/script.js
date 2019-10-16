@@ -55,3 +55,25 @@ document.getElementById('submitE').addEventListener('click', function() {
 	// Clears the form at the end ready for next input
 	document.getElementById('employeeForm').reset();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
