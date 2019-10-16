@@ -1,0 +1,21 @@
+body{
+	background-color: #666666;
+}
+
+.jumbotron{
+	border-radius: 0;
+	margin: 0;
+}
+.container{
+	min-height: 45vh;
+	padding: 15px 5px;
+}
+.container p,h2,h3,h4,h5,h6{
+	color: #333;
+}
+.form-output{
+	margin: 10px 0;
+}
+.bg-danger{
+	color: white;
+}
