@@ -45,11 +45,11 @@ document.getElementById('submitE').addEventListener('click', function() {
 	document.getElementById('employeeResults').innerHTML += individualName + ': ' + projA + '% for project A, ' + projB + '% for project B, ' + projC + '% for project C.<br>' + '<b>Project Average:</b> ' + projAverage + '%';
 
 	// Placing values into the array
-	individualName.push(eName);
+	eName.push(individualName);
 	projectA.push(projA);
 	projectB.push(projB);
 	projectC.push(projC);
-	projAverage.push(projectAverage);
+	projectAverage.push(projAverage);
 	console.log(eName, projectA, projectB, projectC, projectAverage);
 
 	// Clears the form at the end ready for next input
